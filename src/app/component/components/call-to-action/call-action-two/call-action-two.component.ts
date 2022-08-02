@@ -9,8 +9,8 @@ export class CallActionTwoComponent implements OnInit {
 	
 	@Input() data : any;
 	
-	email = "info@example.com";
-	contact_no = "0800-123456";
+	email = "bm@gemizip.com";
+	contact_no = "+82-2-6093-5577";
 
   constructor() { }
 

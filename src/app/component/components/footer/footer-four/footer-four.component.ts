@@ -8,49 +8,25 @@ import { Component, OnInit } from '@angular/core';
 export class FooterFourComponent implements OnInit {
 	
 	about_title = "ABOUT US";
-	about_desc = "Contrary to popular belief, Lorem simply random text. It has roots in a piece of classical Latin literature.";
+	about_desc = "Corise Technology strives for strong responsibility and bold creativity. This is our core value as an organization";
 	
 	schedule_title = "OPENING HOURS";
 	
 	contactList : any = [
 		{
 			icon: "ti ti-location-pin",
-			address: "Address20 , New York 10010",
+			address: "Unit 302, 6, Yeouidaebang-ro 65-gil, Yeongdeungpo-gu, Seoul, Republic of Korea",
 		},
 		{
 			icon: "ti ti-mobile",
-			address: "Phone 0800-123456",
+			address: "Phone +82-2-6093-5577",
 		},
 		{
 			icon: "ti ti-email",
-			address: "Email info@example.com",
+			address: "Email bm@gemizip.com",
 		},
 	]
 	
-	post_title = "LATEST POST";
-	latestPost : any = [
-		{
-			image: "pic1.jpg",
-			title: "Helping you and your house become better.",
-			author_name :"By <a href='javascript:void(0);'>Jone</a>",
-			comment: "28",
-		},
-		{
-			image: "pic1.jpg",
-			title: "Creating quality urban lifestyles.",
-			author_name :"By <a href='javascript:void(0);'>Jone</a>",
-			comment: "28",
-		},
-	]
-	
-	company_title = "COMPANY";
-	serviceList: any = [
-		{title: "About Us"},
-		{title: "Blog"},
-		{title: "Services"},
-		{title: "Privacy Policy"},
-		{title: "Projects"},
-	]
 
   constructor() { }
 

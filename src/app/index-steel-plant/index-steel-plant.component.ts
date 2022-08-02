@@ -16,7 +16,6 @@ export class IndexSteelPlantComponent implements OnInit {
 		{title: "Stats", section_id: "stats",},
 		{title: "Services", section_id: "services",},
 		{title: "Team", section_id: "team",},
-		{title: "Client Says", section_id: "client",},
 	]
 	
 	theme : any = {
